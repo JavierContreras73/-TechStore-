@@ -1,16 +1,33 @@
-# React + Vite
+# TechStore Chile - Tienda Virtual Full-Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este proyecto consiste en una plataforma de comercio electrónico para **TechStore Chile**, desarrollada bajo una arquitectura Full-Stack desacoplada utilizando React para el Frontend y Node.js/Express con MongoDB para el Backend.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*   **Frontend:** React, Vite, JavaScript (ES6+), CSS3.
+*   **Backend:** Node.js, Express.js, Cors.
+*   **Base de Datos:** MongoDB, Mongoose (ODM).
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Estructura del Proyecto
 
-## Expanding the Oxlint configuration
+*   `/` (Raíz): Configuración y código fuente del Frontend en React (Vite).
+*   `/backend`: Servidor API Rest en Node.js y script de automatización de base de datos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Instrucciones de Instalación y Ejecución
+
+Para levantar el proyecto completo de manera local, sigue los pasos a continuación:
+
+### 1. Requisitos Previos
+*   Tener instalado [Node.js](https://nodejs.org/)
+*   Tener instanciado y corriendo [MongoDB Local / MongoDB Compass](https://www.mongodb.com/products/tools/compass) en `mongodb://localhost:27017`
+
+### 2. Configurar y Levantar el Backend
+Abre una terminal en la raíz del proyecto y ejecuta:
+```bash
+cd techstore/backend
+npm install
+npm start
