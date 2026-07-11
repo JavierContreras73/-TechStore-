@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Notebook Gamer",
+    "precio": 1299990,
+    "imagen": "/laptop.jpg",
+    "rating": 5,
+    "categoria": "notebooks",
+    "enOferta": false
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse Gamer RGB",
+    "precio": 29990,
+    "imagen": "/mouse.jpg",
+    "rating": 4,
+    "categoria": "perifericos",
+    "enOferta": true
+  },
+  {
+    "id": 3,
+    "nombre": "Monitor 27\" 4K",
+    "precio": 349990,
+    "imagen": "/monitor.jpg",
+    "rating": 5,
+    "categoria": "monitores",
+    "enOferta": false
+  },
+  {
+    "id": 4,
+    "nombre": "SSD 1TB NVMe",
+    "precio": 89990,
+    "imagen": "/disco.jpg",
+    "rating": 4,
+    "categoria": "almacenamiento",
+    "enOferta": true
+  },
+  {
+    "id": 5,
+    "nombre": "Memoria RAM 16GB",
+    "precio": 45990,
+    "imagen": "/ram.png",
+    "rating": 4,
+    "categoria": "componentes",
+    "enOferta": false
+  },
+  {
+    "id": 6,
+    "nombre": "Teclado Mecánico",
+    "precio": 59990,
+    "imagen": "/teclado.jpg",
+    "rating": 5,
+    "categoria": "perifericos",
+    "enOferta": true
+  },
+  {
+    "id": 7,
+    "nombre": "Audífonos Gaming",
+    "precio": 49990,
+    "imagen": "/auriculares.jpg",
+    "rating": 4,
+    "categoria": "audio",
+    "enOferta": false
+  },
+  {
+    "id": 8,
+    "nombre": "Cámara Web HD",
+    "precio": 34990,
+    "imagen": "/webcam.jpg",
+    "rating": 3,
+    "categoria": "perifericos",
+    "enOferta": false
+  },
+  {
+    "id": 9,
+    "nombre": "Impresora Multifunción",
+    "precio": 129990,
+    "imagen": "/impresora.png",
+    "rating": 4,
+    "categoria": "impresoras",
+    "enOferta": false
+  },
+  {
+    "id": 10,
+    "nombre": "Tablet 10\"",
+    "precio": 249990,
+    "imagen": "/tablet.png",
+    "rating": 5,
+    "categoria": "tablets",
+    "enOferta": false
+  },
+  {
+    "id": 11,
+    "nombre": "Procesador Ryzen 7",
+    "precio": 289990,
+    "imagen": "/ryzen.jpg",
+    "rating": 5,
+    "categoria": "componentes",
+    "enOferta": false
+  },
+  {
+    "id": 12,
+    "nombre": "Tarjeta de Video RTX",
+    "precio": 599990,
+    "imagen": "/tarjeta.png",
+    "rating": 5,
+    "categoria": "componentes",
+    "enOferta": false
+  }
+]
